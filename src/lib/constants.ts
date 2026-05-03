@@ -4,6 +4,21 @@ export const TOTAL_FRAMES = 120;
 export const FRAME_PATH = '/frames/frame-';
 export const FRAME_EXT = '.webp';
 
+export const ABOUT = {
+  title: 'Tentang Saya',
+  heading: 'Dedikasi pada Akurasi, Kepatuhan, dan Pertumbuhan Bisnis',
+  description: [
+    'Dengan pengalaman lebih dari 8 tahun di bidang Account Receivable, Tax Administration, dan Finance, saya memiliki rekam jejak yang solid dalam memastikan kelancaran arus kas serta kepatuhan pajak perusahaan. Sebagai Teknisi Akuntansi Yunior tersertifikasi BNSP, saya terbiasa mengelola siklus piutang yang kompleks dan menyusun laporan keuangan yang presisi.',
+    'Saya percaya bahwa di balik setiap angka terdapat cerita krusial mengenai kesehatan dan potensi sebuah bisnis. Melalui pendekatan yang detail-oriented dan pemahaman mendalam pada software seperti Accurate v4, saya selalu berupaya meminimalkan risiko keuangan dan mendukung efisiensi operasional.',
+    'Selain keahlian teknis, sertifikasi EnglishScore CEFR B2 dari British Council dan pengalaman sebagai Team Leader membekali saya dengan kemampuan komunikasi yang baik untuk berkolaborasi dalam tim multinasional maupun memimpin penyelesaian masalah di bawah tekanan.'
+  ],
+  stats: [
+    { label: 'Tahun Pengalaman', value: '8+' },
+    { label: 'Sertifikasi', value: 'BNSP & CEFR B2' },
+    { label: 'Fokus', value: 'AR & Pajak' }
+  ]
+};
+
 export const HERO = {
   tagline: 'Angka Adalah Bahasa Kepercayaan Saya.',
   subTagline: 'Account Receivable · Tax Administration · Financial Reporting',
@@ -168,6 +183,7 @@ export const CONTACT = {
 
 export const NAV_LINKS = [
   { label: 'Beranda', href: '#hero' },
+  { label: 'Tentang', href: '#about' },
   { label: 'Pengalaman', href: '#experience' },
   { label: 'Pendidikan', href: '#education' },
   { label: 'Sertifikasi', href: '#certifications' },

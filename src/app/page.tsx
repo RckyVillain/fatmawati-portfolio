@@ -3,6 +3,10 @@ import SmoothScrollProvider from '@/components/SmoothScrollProvider';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 
+const AboutSection = dynamic(() => import('@/components/AboutSection'), {
+  ssr: false,
+});
+
 // Dynamic imports for code splitting
 const ScrollCanvas = dynamic(() => import('@/components/ScrollCanvas'), {
   ssr: false,
@@ -47,6 +51,7 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
+        <AboutSection />
         <ScrollCanvas />
         <ExperienceTimeline />
         <EducationSection />
